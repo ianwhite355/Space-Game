@@ -1,0 +1,68 @@
+
+/* Nothing crazy I mean just classic css to make it real pretty */
+
+/* wanted to position more towards the center but the cats wouldnt move if i used display flex */
+/* honestly most of my positions are a bit odd but odd */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hidden {
+    display:none;
+}
+
+.main {
+    position: absolute;
+    top: 126px;
+    left: 300px;
+    transform: scale(1.5);
+}
+
+.start {
+    background-color: white;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    font-size: 5em;
+    position: absolute;
+    margin:5px;
+    top: 300px;
+    left: 355px;
+    width: 500px;
+    height: 250px;
+
+}
+
+.start:hover {
+    color:white;
+    background-color: #0000FF;
+    transition: all 0.6s;
+}
+
+
+.lives {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    font-size: 2em;
+    position: absolute;
+    margin:5px;
+    top: 775px;
+    left: 350px;
+    width: 500px;
+}
+
+.lifeimg {
+    align-self: center;
+    width: 15%;
+    height: 15%;
+    margin-left: 12px;
+}
+
