@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../js-consolidation"
+		},
+		{
+			"path": "../js-thedom-P2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project-js-nyan-cat"
+	}
+}
